@@ -26,25 +26,27 @@ body {
 }
 
 .resume .resume_left {
-    width: 30%;
-    height: 160vh;
-    background: #f5d105;
-    left: 0;
+    height: 100em;
+    background-color: rgb(204, 182, 199);
 }
 
 .resume_content h2 {
-    color: #f5d105;
+    color: rgb(204, 182, 199);
     background-color: black;
     padding: 15px;
 }
 
 .content h2 {
-    color: #f5d105;
+    color: rgb(204, 182, 199);
     padding: 15px;
 }
 
-.intrest h2 {
-    color: #f5d105;
+.content p {
+    padding: 10px;
+}
+
+.interest h2 {
+    color: rgb(204, 182, 199);
 }
 
 
@@ -61,7 +63,6 @@ body {
 .rightside h2 {
     position: relative;
     bottom: 30px;
-    padding: 8px;
 }
 
 .rightside p {
@@ -80,7 +81,7 @@ body {
     background-color: black;
 }
 
-.intrest h2 {
+.interest h2 {
     background-color: black;
     padding: 10px;
 }
@@ -91,7 +92,7 @@ body {
 }
 
 .leftside p {
-    position: relative;
+    display: -webkit-inline-box;
     bottom: 20px;
     padding: 10px;
 }
@@ -233,7 +234,7 @@ p {
     .logo h2 {
         display: block;
         background-color: black;
-        color: #f5d105;
+        color: rgb(204, 182, 199);
         padding: 10px;
         margin-left: -5px;
         font-size: 30px;
@@ -263,8 +264,9 @@ p {
     .content p {
         font-size: 28px;
         font-style: italic;
+        padding: 10px;
     }
-    .intrest h2 {
+    .interest h2 {
         font-size: 30px;
         font-style: italic;
     }
@@ -281,14 +283,14 @@ p {
     }
     .responsive p {
         font-size: 20px;
-        position: relative;
         bottom: 20px;
+        padding-left: 10px;
         font-style: italic;
     }
     .media h2 {
         display: block;
         background-color: black;
-        color: #f5d105;
+        color: rgb(204, 182, 199);
         padding: 10px;
         margin-left: -5px;
         font-size: 30px;
@@ -304,8 +306,8 @@ p {
     }
     .media p {
         font-size: 20px;
-        position: relative;
         bottom: 20px;
+        padding-left: 10px;
         font-style: italic;
     }
     .mobile {
@@ -314,7 +316,7 @@ p {
     .mobile h2 {
         display: block;
         background-color: black;
-        color: #f5d105;
+        color: rgb(204, 182, 199);
         padding: 10px;
         margin-left: -5px;
         font-size: 30px;
@@ -322,8 +324,8 @@ p {
     }
     .mobile p {
         font-size: 20px;
-        position: relative;
         bottom: 20px;
+        padding-left: 10px;
         font-style: italic;
     }
 }
