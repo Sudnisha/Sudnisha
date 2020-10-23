@@ -49,6 +49,12 @@ body {
     color: rgb(204, 182, 199);
 }
 
+.fas {
+    font-size: 25px;
+    padding-left: 5px;
+    margin-left: 10px;
+}
+
 
 /* .resume_profile h1 {
                         display: none;
@@ -63,6 +69,7 @@ body {
 .rightside h2 {
     position: relative;
     bottom: 30px;
+    inline-size: max-content;
 }
 
 .rightside p {
@@ -93,8 +100,8 @@ body {
 
 .leftside p {
     display: -webkit-inline-box;
-    bottom: 20px;
     padding: 10px;
+    min-inline-size: max-content;
 }
 
 .resume_profile h2 {
@@ -144,6 +151,7 @@ p {
 
 .content-container h2 {
     display: inline;
+    padding-left: 20px;
 }
 
 .education-details {
@@ -240,6 +248,12 @@ p {
         font-size: 30px;
         font-style: italic;
     }
+    /* .fas {
+        font-weight: 900;
+        font-size: 30px;
+        padding-left: 5px;
+        margin-left: 10px;
+    }*/
     .content-container img {
         display: none;
     }
