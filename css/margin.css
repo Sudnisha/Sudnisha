@@ -36,6 +36,10 @@ body {
     padding: 15px;
 }
 
+.resume_content ul {
+    padding-left: 10%;
+}
+
 .content h2 {
     color: rgb(204, 182, 199);
     padding: 15px;
@@ -137,7 +141,7 @@ p {
 
 .underline {
     border-bottom-style: solid;
-    border-bottom-color: khaki;
+    border-bottom-color: rgb(204, 182, 199);
     border-bottom-width: 2px;
     margin: 10px;
 }
