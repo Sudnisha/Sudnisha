@@ -295,13 +295,12 @@ p {
         display: inline;
     }
     .responsive h2 {
-        font-size: 30 px;
         font-style: italic;
-        padding: 10px;
+        padding-inline-start: 50%;
     }
     .responsive p {
         font-size: 20px;
-        bottom: 20px;
+        bottom: 60px;
         padding-left: 10px;
         font-style: italic;
     }
