@@ -319,11 +319,11 @@ p {
     .media h3 {
         font-size: 20px;
         font-style: italic;
-        padding: 10px;
+        padding-inline-start: 50%;
     }
     .media p {
         font-size: 20px;
-        bottom: 20px;
+        bottom: 60px;
         padding-left: 10px;
         font-style: italic;
     }
