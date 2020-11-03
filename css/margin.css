@@ -300,7 +300,6 @@ p {
         background-color: black;
         color: rgb(204, 182, 199);
         padding: 10px;
-        margin-left: -5px;
         font-size: 30px;
         font-style: italic;
     }
@@ -335,7 +334,7 @@ p {
     .media p {
         font-size: 20px;
         bottom: 60px;
-        padding-left: 10px;
+        padding-left: 05px;
         font-style: italic;
     }
     .mobile {
@@ -356,7 +355,7 @@ p {
         font-size: 16px;
     }
     .right {
-        text-align: end;
+        text-align: right;
         position: relative;
         bottom: 135px;
     }
