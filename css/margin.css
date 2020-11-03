@@ -296,12 +296,24 @@ p {
         display: inline;
     }
     .responsive h2 {
+        display: block;
+        background-color: black;
+        color: rgb(204, 182, 199);
+        padding: 10px;
+        margin-left: -5px;
+        font-size: 30px;
         font-style: italic;
+    }
+    .responsive h3 {
+        font-size: 20px;
+        font-style: italic;
+        padding-inline-start: 50%;
     }
     .responsive p {
         font-size: 20px;
         padding-left: 10px;
         font-style: italic;
+        bottom: 60px;
     }
     .media h2 {
         display: block;
@@ -339,9 +351,13 @@ p {
         font-style: italic;
     }
     .mobile p {
-        font-size: 20px;
         bottom: 20px;
-        padding-left: 10px;
         font-style: italic;
+        font-size: 16px;
+    }
+    .right {
+        text-align: end;
+        position: relative;
+        bottom: 135px;
     }
 }
